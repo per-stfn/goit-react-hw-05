@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.searchInput {
+  width: 300px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(247, 65, 65);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: rgb(241, 108, 108);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgb(241, 108, 108);
+}

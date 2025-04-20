@@ -1,0 +1,42 @@
+.reviewsWrapper {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.reviewItem {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.reviewItem:hover {
+  transform: translateY(-5px);
+}
+
+.reviewItem h3 {
+  font-size: 20px;
+  color: #2a8f7b;
+  margin-bottom: 10px;
+}
+
+.reviewItem p {
+  font-size: 16px;
+  color: rgb(60, 60, 60);
+  line-height: 1.6;
+}
+
+.noReviews {
+  font-size: 18px;
+  color: rgb(247, 65, 65);
+  text-align: center;
+  padding: 20px;
+  background-color: #fef0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

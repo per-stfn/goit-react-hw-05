@@ -1,0 +1,12 @@
+.pageWrapper {
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pageTitle {
+  font-size: 36px;
+  color: #2a8f7b;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
